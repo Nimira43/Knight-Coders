@@ -1,3 +1,5 @@
+// All the below demos use the Options API
+
 <script>
 export default {
   data() {
