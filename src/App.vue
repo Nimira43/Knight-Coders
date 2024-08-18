@@ -1,4 +1,5 @@
 // All the below demos use the Options API
+// Code is store in the archive
 
 <script>
 export default {
