@@ -1,3 +1,3 @@
 <template>
-  <h1>JobFinder</h1>
+  <h1>Jobs 4 Coders</h1>
 </template>
