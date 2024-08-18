@@ -20,6 +20,13 @@ const toggleStatus = () => {
   }
 }
 
+const addTask = () => {
+  if (newTask.value.trim() !== '') {
+    tasks.value.push(newTask.value)
+    newTask.value = ''
+  }
+}
+
 </script>
 
 <template>
@@ -36,14 +43,17 @@ const toggleStatus = () => {
       id="newTask" 
       name="newTask"
       v-model="newTask"
-      >
+      />
+    <button type="submit">Submit</button>
   </form>
 
   <h3>Tasks:</h3>
   <ul>
-    <li v-for="task in tasks" :key="task">{{ task }}</li>
+    <li v-for="(task, index) in tasks" :key="task">
+      <span>{{ task }}</span>
+      <button @click="deleteTask(index)">X</button>
+    </li>
   </ul>
   <button @click="toggleStatus">Change Status</button>
 
 </template>
-
