@@ -6,7 +6,7 @@ export default {
     const name = 'Lenny'
     const status = 'sleeping'
     const tasks = ['Task 1', 'Task 2', 'Task 3']
-    const toggleStatus() {
+    const toggleStatus = () => {
       if (this.status === 'active') {
         this.status = 'pending'
       } else if (this.status === 'pending') {
