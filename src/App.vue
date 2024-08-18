@@ -1,4 +1,17 @@
+<script>
+export default {
+  data() {
+    return {
+      name: 'Lenny',
+      status: true
+    }
+  }
+}
+</script>
+
 <template>
-  <h1>Tasks</h1>  
+  <h1>{{ name }}</h1>
+  <p v-if="status">User is active</p>
+  <p v-else>User is inactive</p>  
 </template>
 
