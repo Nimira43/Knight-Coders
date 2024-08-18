@@ -3,6 +3,7 @@
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import HomeCards from './components/HomeCards.vue'
+import BrowseJobs from './components/BrowseJobs.vue'
 
 </script>
 
@@ -10,4 +11,5 @@ import HomeCards from './components/HomeCards.vue'
   <Navbar />
   <Hero />
   <HomeCards />
+  <BrowseJobs />
 </template>
