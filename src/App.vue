@@ -4,7 +4,8 @@ export default {
     return {
       name: 'Lenny',
       status: 'sleeping',
-      tasks: ['Task 1', 'Task 2', 'Task 3']
+      tasks: ['Task 1', 'Task 2', 'Task 3'],
+      link: 'https://google.com'
     }
   }
 }
@@ -18,6 +19,8 @@ export default {
   <h3>Tasks:</h3>
   <ul>
     <li v-for="task in tasks" :key="task">{{ task }}</li>
-  </ul>  
+  </ul>
+  <!-- <a v-bind:href="link">Google</a>   -->
+  <a :href="link">Google</a>  
 </template>
 
