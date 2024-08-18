@@ -1,21 +1,28 @@
 // All the below demos use the Composition API
 
 <script>
+import { ref } from 'vue'
 export default {
   setup() {
-    const name = 'Lenny'
-    const status = 'sleeping'
-    const tasks = ['Task 1', 'Task 2', 'Task 3']
+    const name = ref('Lenny')
+    const status = ref('sleeping')
+    const tasks = ref(['Task 1', 'Task 2', 'Task 3'])
     const toggleStatus = () => {
-      if (this.status === 'active') {
-        this.status = 'pending'
-      } else if (this.status === 'pending') {
-        this.status = 'inactive'
+      if (status.value === 'active') {
+        status.value = 'pending'
+      } else if (status.value === 'pending') {
+        status.value = 'inactive'
       } else {
-        this.status = 'active'
+        status.value = 'active'
       }
     }
-  }
+    return {
+      name,
+      status,
+      tasks,
+      toggleStatus,
+    }
+  },
 }
 </script>
 
