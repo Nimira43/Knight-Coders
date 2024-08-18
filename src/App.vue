@@ -1,18 +1,12 @@
-// All the below demos use the Options API
-// Code is store in the archive
+// All the below demos use the Composition API
 
 <script>
 export default {
-  data() {
-    return {
-      name: 'Lenny',
-      status: 'sleeping',
-      tasks: ['Task 1', 'Task 2', 'Task 3'],
-      link: 'https://google.com'
-    }
-  },
-  methods: {
-    toggleStatus() {
+  setup() {
+    const name = 'Lenny'
+    const status = 'sleeping'
+    const tasks = ['Task 1', 'Task 2', 'Task 3']
+    const toggleStatus() {
       if (this.status === 'active') {
         this.status = 'pending'
       } else if (this.status === 'pending') {
@@ -34,10 +28,6 @@ export default {
   <ul>
     <li v-for="task in tasks" :key="task">{{ task }}</li>
   </ul>
-  <!-- <a v-bind:href="link">Google</a>   -->
-  <a :href="link">Google</a>  
-  <br />
-  <!-- <button v-on:click="toggleStatus">Change Status</button> -->
   <button @click="toggleStatus">Change Status</button>
 </template>
 
