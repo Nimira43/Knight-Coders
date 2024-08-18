@@ -27,11 +27,15 @@ const addTask = () => {
   }
 }
 
+const deleteTask = (index) => {
+  tasks.value.splice(index, 1)
+}
+
 </script>
 
 <template>
   
-  <h1>{{ name }}</h1>
+  <h1>USER: {{ name }}</h1>
   <p v-if="status === 'active'">User is active</p>
   <p v-else-if="status === 'pending'">User is pending</p>
   <p v-else>User is inactive</p>
@@ -57,3 +61,50 @@ const addTask = () => {
   <button @click="toggleStatus">Change Status</button>
 
 </template>
+
+<style>
+  body {
+    margin-left: 30%;  
+    background-color: #111;
+    color: #ff4500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label, input, button {
+    margin-bottom: 10px;
+  }
+
+  input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ff4500;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #ff4500;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  span { 
+    margin-right: 20px;
+  }
+
+  button {
+    background-color: #ff4500;
+    color: #111;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+</style>
