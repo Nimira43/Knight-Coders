@@ -1,30 +1,24 @@
 // All the below demos use the Composition API
-// Long hand version
+// Short hand version
 
-<script>
+<script setup>
+
 import { ref } from 'vue'
-export default {
-  setup() {
-    const name = ref('Lenny')
-    const status = ref('sleeping')
-    const tasks = ref(['Task 1', 'Task 2', 'Task 3'])
-    const toggleStatus = () => {
-      if (status.value === 'active') {
-        status.value = 'pending'
-      } else if (status.value === 'pending') {
-        status.value = 'inactive'
-      } else {
-        status.value = 'active'
-      }
-    }
-    return {
-      name,
-      status,
-      tasks,
-      toggleStatus,
-    }
-  },
+
+const name = ref('Lenny')
+const status = ref('sleeping')
+const tasks = ref(['Task 1', 'Task 2', 'Task 3'])
+
+const toggleStatus = () => {
+  if (status.value === 'active') {
+    status.value = 'pending'
+  } else if (status.value === 'pending') {
+    status.value = 'inactive'
+  } else {
+    status.value = 'active'
+  }
 }
+
 </script>
 
 <template>
