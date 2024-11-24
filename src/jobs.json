@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Senior Angular Developer",
     "type": "Full-Time",
-    "description": "We are seeking a talented Front-End Developer to join our team in Leeds, England. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-    "location": "Leeds",
+    "description": "We are seeking a talented Front-End Developer to join our team in Leeds. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+    "location": "Leeds, England",
     "salary": "£50-£60K",
     "company": {
       "name": "Zenith",
@@ -17,7 +17,7 @@
     "id": 2,
     "title": "Back-End Database Engineer",
     "type": "Full-Time",
-    "description": "Join our team as a Back-End Database Engineer in London, England. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+    "description": "Join our team as a Back-End Database Engineer in London. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
     "location": "London, England",
     "salary": "£80-90K",
     "company": {
@@ -31,7 +31,7 @@
     "id": 3,
     "title": "C++ Software Engineer",
     "type": "Full-Time",
-    "description": "A great opportunity for a Software Engineer, who is experienced in both C++ and embedded software to join a small team who are genuinely developing software and systems that save lives.",
+    "description": "NimiraTech Solutions has a great opportunity for a Software Engineer, who is experienced in both C++ and embedded software to join a small team who are genuinely developing software and systems that save lives. ",
     "location": "Manchester, England",
     "salary": "£55-£60K",
     "company": {
@@ -45,7 +45,7 @@
     "id": 4,
     "title": "React Developer",
     "type": "Part-Time",
-    "description": "Join our team as a Part-Time Front-End Developer in Cardiff, Wales. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+    "description": "Join our team as a Part-Time Front-End Developer in Cardiff. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
     "location": "Cardiff, Wales",
     "salary": "£30-£35K",
     "company": {
@@ -59,8 +59,8 @@
     "id": 5,
     "title": "Full Stack Vue Developer",
     "type": "Full-Time",
-    "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Dublin, Ireland. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-    "location": "Dublin",
+    "description": "Exciting opportunity for a Full-Time Front-End Developer in Dublin. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+    "location": "Dublin, Ireland",
     "salary": "€80-€85K",
     "company": {
       "name": "Titan Dev",
@@ -73,8 +73,8 @@
     "id": 6,
     "title": "Django Developer",
     "type": "Full-Time",
-    "description": "Join our team as a Back-End Developer in Newcastle, England. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-    "location": "Necastle, England",
+    "description": "Join our team as a Back-End Developer in Edinburgh. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+    "location": "Edinburgh, Scotland",
     "salary": "£70-£75K",
     "company": {
       "name": "",
