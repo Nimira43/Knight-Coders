@@ -5,7 +5,11 @@ import jobData from '@/jobs.json'
 import { ref, defineProps } from 'vue'
 
 defineProps({
-  limit: Number
+  limit: Number,
+  showButton: {
+    type: Boolean,
+    default: false
+  }
 })
 
 const jobs = ref(jobData)
@@ -28,4 +32,12 @@ console.log(jobs.value)
       </div>
     </div>
   </section>
+  <section v-if='showButton' className="m-auto max-w-lg my-10 px-6">
+      <a
+        href="/jobs"
+        className="block bg-[#111] text-[#eee] text-center py-4 px-6 rounded-xl hover:bg-[#1c9fd3]"
+        >View All Jobs</a
+      >
+    </section>
+
 </template>

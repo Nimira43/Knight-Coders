@@ -11,5 +11,5 @@ import BrowseJobs from './components/BrowseJobs.vue'
   <Navbar />
   <Hero />
   <HomeCards />
-  <BrowseJobs :limit='3' />
+  <BrowseJobs :limit='3' :showButton='true' />
 </template>
