@@ -25,7 +25,7 @@ const truncatedDescription = computed(() => {
         <h3 class='text-[#eee] text-xl font-bold'>{{ job.title }}</h3>
       </div>
       <div class='text-[#eee] mb-5'>
-        {{ job.description }}
+        {{ truncatedDescription }}
       </div>
       <h3 class='text-[#1c9fd3] mb-2'>{{ job.salary }} / Year</h3>
       <div class='border border-[#eee] mb-5'></div>
