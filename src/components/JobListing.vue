@@ -42,7 +42,7 @@ const truncatedDescription = computed(() => {
       <div class='border border-[#eee] mb-5'></div>
       <div class='flex flex-col lg:flex-row justify-between mb-4'>
         <div class='text-[#eee] mb-3'>
-          <i class='fa-solid fa-location-dot text-lg'></i>
+          <i class='pi pi-map-marker text-lg'></i>
           {{ job.location }}
         </div>
         <a
