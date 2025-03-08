@@ -3,6 +3,11 @@ export default {
   content: ['./index.html', './src/**/*.{vue, js, ts, jsx, tsx}'],
   theme: {
     extend: {
+      colors: {
+        'main': '#1c9fd3',
+        'light': '#fcfeff',
+        'dark': '#111',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
