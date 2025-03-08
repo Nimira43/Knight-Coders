@@ -18,9 +18,9 @@ console.log(jobs.value)
 </script>
 
 <template>
-  <section class='bg-[#1c9fd3] px-4 py-10'>
+  <section class='bg-main px-4 py-10'>
     <div class='container-xl lg:container m-auto'>
-      <h2 class='text-3xl font-bold text-[#eee] mb-6 text-center'>
+      <h2 class='text-3xl font-bold text-light mb-6 text-center'>
         Browse Jobs
       </h2>
       <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
@@ -35,7 +35,7 @@ console.log(jobs.value)
   <section v-if='showButton' className="m-auto max-w-lg my-10 px-6">
       <a
         href="/jobs"
-        className="block bg-[#111] text-[#eee] text-center py-4 px-6 rounded-xl hover:bg-[#1c9fd3]"
+        className="block bg-dark text-light text-center py-4 px-6 rounded-xl hover:bg-main"
         >View All Jobs</a
       >
     </section>
