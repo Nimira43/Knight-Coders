@@ -6,7 +6,6 @@ const isActiveLink = (routePath) => {
   const route = useRoute()
   return route.path === routePath
 }
-
 </script>
 
 <template>
@@ -32,7 +31,7 @@ const isActiveLink = (routePath) => {
                   'uppercase',
                   'px-3',
                   'py-2',
-                  'rounded-sm',
+                  'rounded-sm',            
                 ]" 
               >
                 Home
