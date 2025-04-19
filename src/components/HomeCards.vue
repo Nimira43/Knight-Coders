@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import Card from './Card.vue'
-
 </script>
 
 <template>

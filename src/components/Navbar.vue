@@ -1,6 +1,12 @@
 <script setup>
 import logo from '@/assets/images/logo.png'
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
+
+const isActiveLink = (routePath) => {
+  const route = useRoute()
+  return route.path === routePath
+}
+
 </script>
 
 <template>
@@ -18,19 +24,46 @@ import { RouterLink } from 'vue-router'
             <div class='flex space-x-2'>
               <RouterLink
                 to='/'
-                class='text-light hover:text-dark rounded-md px-3 py-2'
+                :class="[
+                  isActiveLink('/')
+                    ? 'bg-dark'
+                    : 'hover:bg-grey-dark hover:text-light',
+                  'text-light',
+                  'uppercase',
+                  'px-3',
+                  'py-2',
+                  'rounded-sm',
+                ]" 
               >
                 Home
               </RouterLink>
               <RouterLink
                 to='/jobs'
-                class='text-light hover:text-dark rounded-md px-3 py-2'
+                :class="[
+                  isActiveLink('/jobs')
+                    ? 'bg-dark'
+                    : 'hover:bg-grey-dark hover:text-light',
+                  'text-light',
+                  'uppercase',
+                  'px-3',
+                  'py-2',
+                  'rounded-sm',
+                ]" 
               >
                 Jobs
               </RouterLink>
               <RouterLink
                 to='/jobs/add'
-                class='text-light hover:text-dark rounded-md px-3 py-2'
+                :class="[
+                  isActiveLink('/jobs/add')
+                    ? 'bg-dark'
+                    : 'hover:bg-grey-dark hover:text-light',
+                  'text-light',
+                  'uppercase',
+                  'px-3',
+                  'py-2',
+                  'rounded-sm',
+                ]" 
               >
                 Add Job
               </RouterLink>
