@@ -28,6 +28,7 @@ const isActiveLink = (routePath) => {
                     ? 'bg-dark'
                     : 'hover:bg-grey-dark hover:text-light',
                   'text-light',
+                  'font-medium',
                   'uppercase',
                   'px-3',
                   'py-2',
@@ -43,6 +44,7 @@ const isActiveLink = (routePath) => {
                     ? 'bg-dark'
                     : 'hover:bg-grey-dark hover:text-light',
                   'text-light',
+                  'font-medium',
                   'uppercase',
                   'px-3',
                   'py-2',
@@ -58,6 +60,7 @@ const isActiveLink = (routePath) => {
                     ? 'bg-dark'
                     : 'hover:bg-grey-dark hover:text-light',
                   'text-light',
+                  'font-medium',
                   'uppercase',
                   'px-3',
                   'py-2',

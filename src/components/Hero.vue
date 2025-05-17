@@ -22,7 +22,7 @@ defineProps({
       >
         <div class='text-center'>
           <h1
-            class='text-4xl font-extrabold text-main sm:text-5xl md:text-6xl'
+            class='text-4xl font-semibold text-main sm:text-5xl md:text-6xl'
           >
             {{ title }}
           </h1>
