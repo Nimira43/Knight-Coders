@@ -11,7 +11,7 @@
           <div
             class="bg-grey-light p-6 rounded-lg shadow-md text-center md:text-left"
           >
-            <div class="text-dark mb-4">Full-Time</div>
+            <div class="text-main font-semibold mb-4 uppercase">Full-Time</div>
             <h1 class="text-3xl font-semibold mb-4">Senior Vue Developer</h1>
             <div
               class="text-dark mb-4 flex align-middle justify-center md:justify-start"
@@ -19,12 +19,12 @@
               <i
                 class="fa-solid fa-location-dot text-lg text-main mr-2"
               ></i>
-              <p class="text-main">Manchester</p>
+              <p class="text-main font-semibold uppercase ">Manchester</p>
             </div>
           </div>
 
           <div class="bg-grey-light p-6 rounded-lg shadow-md mt-6">
-            <h3 class="text-main text-lg font-semibold mb-6">
+            <h3 class="text-main text-lg font-semibold mb-6 uppercase">
               Job Description
             </h3>
 
@@ -35,7 +35,7 @@
               JavaScript frameworks such as Vue or Angular.
             </p>
 
-            <h3 class="text-main text-lg font-semibold mb-2">Salary</h3>
+            <h3 class="text-main text-lg font-semibold mb-2 uppercase">Salary</h3>
 
             <p class="mb-4">£55,000</p>
           </div>
@@ -43,11 +43,11 @@
 
         <aside>
           <div class="bg-grey-light p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-6">Company Info</h3>
+            <h3 class="text-xl text-main font-semibold mb-6 uppercase">Company Info</h3>
 
-            <h2 class="text-2xl">Modulas Solutions</h2>
+            <h2 class="text-2xl uppercase">Modulas Solutions</h2>
 
-            <p class="my-2">
+            <p class="my-2 ">
               Modulas Solutions is a leading technology company specialising in
               web development and digital solutions. We pride ourselves on
               delivering high-quality products and services to our clients
@@ -64,19 +64,19 @@
 
             <h3 class="text-xl">Contact Phone:</h3>
 
-            <p class="my-2 bg-green-100 p-2 font-semibold">0161 123 9876</p>
+            <p class="my-2 bg-main-light p-2 font-semibold">0161 123 9876</p>
           </div>
 
           <div class="bg-light p-6 rounded-lg shadow-md mt-6">
-            <h3 class="text-xl font-semibold mb-6">Manage Job</h3>
+            <h3 class="text-xl font-semibold mb-6 uppercase ">Manage Job</h3>
             <a
               href="/jobs/add"
-              class="bg-green-500 hover:bg-green-600 text-light text-center font-semibold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+              class="bg-dark hover:bg-grey-dark text-light text-center uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block"
             >
               Edit Job
             </a>
             <button
-              class="bg-red-500 hover:bg-red-600 text-light font-semibold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+              class="bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block"
             >
               Delete Job
             </button>
