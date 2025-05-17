@@ -58,17 +58,17 @@
 
             <h3 class='text-xl'>Contact Email:</h3>
 
-            <p class='my-2 bg-green-100 p-2 font-semibold'>
+            <p class='my-2 bg-light p-2 font-semibold'>
               contact@modulassolutions.com
             </p>
 
             <h3 class='text-xl'>Contact Phone:</h3>
 
-            <p class='my-2 bg-main-light p-2 font-semibold'>0161 123 9876</p>
+            <p class='my-2 bg-light p-2 font-semibold'>0161 123 9876</p>
           </div>
 
           <div class='bg-light p-6 rounded-lg shadow-md mt-6'>
-            <h3 class='text-xl font-semibold mb-6 uppercase '>Manage Job</h3>
+            <h3 class='text-xl text-center font-semibold mb-6 uppercase '>Manage Job</h3>
             <a
               href='/jobs/add'
               class='bg-dark hover:bg-grey-dark text-light text-center uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block'
