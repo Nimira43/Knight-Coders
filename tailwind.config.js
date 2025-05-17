@@ -8,6 +8,7 @@ export default {
         'light': '#fcfeff',
         'dark': '#111',
         'grey-dark': '#333',
+        'grey-light': '#eee'
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
