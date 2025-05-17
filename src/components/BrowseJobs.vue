@@ -35,7 +35,7 @@ console.log(jobs.value)
   <section v-if='showButton' className="m-auto max-w-lg my-10 px-6">
     <RouterLink
       to="/jobs"
-      className="block bg-dark text-light text-center py-4 px-6 rounded-xl hover:bg-main"
+      className="block bg-dark text-light text-center py-4 px-6 rounded-xl hover:bg-main uppercase"
     >
       View All Jobs
     </RouterLink>
