@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import JobListing from './JobListing.vue'
 import { ref, defineProps } from 'vue'
+import axios from 'axios'
 
 defineProps({
   limit: Number,
