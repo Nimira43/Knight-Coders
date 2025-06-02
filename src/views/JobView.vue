@@ -1,6 +1,5 @@
 <script setup>
 
-
 </script>
 
 <template>
@@ -30,13 +29,11 @@
 
             <p class='mb-4'>
               We are seeking a talented Front-End Developer to join our team
-              in Machester. The ideal candidate will have strong skills in
+              in Manchester. The ideal candidate will have strong skills in
               HTML, CSS, and JavaScript, with experience working with modern
               JavaScript frameworks such as Vue or Angular.
             </p>
-
             <h3 class='text-main text-lg font-semibold mb-2 uppercase'>Salary</h3>
-
             <p class='mb-4'>£55,000</p>
           </div>
         </main>
@@ -44,26 +41,19 @@
         <aside>
           <div class='bg-grey-light p-6 rounded-lg shadow-md'>
             <h3 class='text-xl text-main font-semibold mb-6 uppercase'>Company Info</h3>
-
             <h2 class='text-2xl font-medium uppercase'>Modulas Solutions</h2>
-
             <p class='my-2 '>
               Modulas Solutions is a leading technology company specialising in
               web development and digital solutions. We pride ourselves on
               delivering high-quality products and services to our clients
               while fostering a collaborative and innovative work environment.
             </p>
-
             <hr class='my-4' />
-
             <h3 class='text-xl'>Contact Email:</h3>
-
             <p class='my-2 bg-light p-2 font-semibold'>
               contact@modulassolutions.com
             </p>
-
             <h3 class='text-xl'>Contact Phone:</h3>
-
             <p class='my-2 bg-light p-2 font-semibold'>0161 123 9876</p>
           </div>
 
