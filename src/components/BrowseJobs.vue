@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import JobListing from './JobListing.vue'
-import jobData from '@/jobs.json'
 import { ref, defineProps } from 'vue'
 
 defineProps({
@@ -12,9 +11,7 @@ defineProps({
   }
 })
 
-const jobs = ref(jobData)
-console.log(jobs.value) 
-
+const jobs = ref([]) 
 </script>
 
 <template>
