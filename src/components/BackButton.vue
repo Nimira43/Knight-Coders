@@ -7,9 +7,10 @@
     <div class='container m-auto py-6 px-6'>
       <RouterLink
         to='/jobs'
-        class='text-main hover:text-dark flex items-center uppercase'
+        class='text-dark hover:text-main flex items-center uppercase font-medium btn-hover'
       >
-        <i class='pi pi-arrow-circle-left'></i> Back to Job Listings
+        <i class='pi pi-arrow-circle-left mr-2'></i> 
+        Back to Job Listings
       </RouterLink>
     </div>
   </section>

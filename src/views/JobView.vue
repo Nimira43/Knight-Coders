@@ -1,4 +1,5 @@
 <script setup>
+  import BackButton from '@/components/BackButton.vue'
   import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
   import { reactive, onMounted } from 'vue'
   import { useRoute, RouterLink } from 'vue-router' 
@@ -25,6 +26,7 @@
 </script>
 
 <template>
+  <BackButton />
   <section 
     v-if='!state.isLoading'  
     class='bg-light'
