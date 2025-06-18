@@ -6,10 +6,10 @@
   <section>
     <div class='container m-auto py-6 px-6'>
       <RouterLink
-        href='jobs.html'
+        to='/jobs'
         class='text-main hover:text-dark flex items-center uppercase'
       >
-        <i class='fas fa-arrow-left mr-2'></i> Back to Job Listings
+        <i class='pi pi-arrow-circle-left'></i> Back to Job Listings
       </RouterLink>
     </div>
   </section>
