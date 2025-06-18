@@ -2,8 +2,8 @@
 import { RouterLink } from 'vue-router'
 import JobListing from './JobListing.vue'
 import { reactive, defineProps, onMounted } from 'vue'
-import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 import axios from 'axios'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
 defineProps({
   limit: Number,
@@ -37,7 +37,7 @@ onMounted(async () => {
         Browse Jobs
       </h2>
       <div v-if='state.isLoading' class="text-center text-main py-6">
-        <PulserLoader />
+        <PulseLoader />
       </div>
       <div v-else class='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <JobListing 
