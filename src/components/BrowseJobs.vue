@@ -36,7 +36,7 @@ onMounted(async () => {
       <h2 class='text-3xl font-semibold text-main mb-6 text-center'>
         Browse Jobs
       </h2>
-      <div v-if='state.isLoading' class="text-center text-main py-6">
+      <div v-if='state.isLoading' class='text-center text-main py-6'>
         <PulseLoader />
       </div>
       <div v-else class='grid grid-cols-1 md:grid-cols-3 gap-6'>

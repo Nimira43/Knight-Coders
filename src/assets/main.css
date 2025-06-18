@@ -13,6 +13,10 @@ body {
   background-color: #fff;
 }
 
+.btn-hover {
+  transition: all 0.5s ease;
+}
+
 .logo {
   font-family: 'Amatic SC', sans-serif;
   font-weight: bold;

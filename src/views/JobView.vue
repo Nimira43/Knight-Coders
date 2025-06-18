@@ -93,7 +93,7 @@
       </div>
     </div>
   </section>
-  <div v-else class="text-center text-main py-6">
+  <div v-else class='text-center text-main py-6'>
     <PulseLoader />
   </div>
 </template>
