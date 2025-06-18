@@ -14,7 +14,7 @@ import Card from './Card.vue'
           </p>
           <RouterLink
             to='/jobs'
-            class='inline-block bg-light text-dark font-medium rounded-md px-4 py-2 hover:text-main uppercase'
+            class='inline-block bg-light text-dark font-medium rounded-md px-4 py-2 hover:text-main uppercase btn-hover'
           >
             Browse Jobs
           </RouterLink>
@@ -26,7 +26,7 @@ import Card from './Card.vue'
           </p>
           <RouterLink
             to='/jobs/add'
-            class='inline-block bg-main text-dark font-medium rounded-md px-4 py-2 hover:text-light uppercase'
+            class='inline-block bg-main text-dark font-medium rounded-md px-4 py-2 hover:text-light uppercase btn-hover'
           >
             Add Job
           </RouterLink>

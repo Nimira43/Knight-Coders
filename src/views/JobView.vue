@@ -79,12 +79,12 @@
             <h3 class='text-xl text-center font-semibold mb-6 uppercase '>Manage Job</h3>
             <RouterLink
               :to="`/jobs/edit/${state.job.id}`"
-              class='bg-dark hover:bg-grey-dark text-light text-center uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block'
+              class='bg-dark hover:bg-grey-dark text-light text-center uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'
             >
               Edit Job
             </RouterLink>
             <button
-              class='bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block'
+              class='bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'
             >
               Delete Job
             </button>

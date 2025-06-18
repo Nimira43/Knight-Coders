@@ -13,7 +13,7 @@ const isActiveLink = (routePath) => {
     <div class='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
       <div class='flex h-20 items-center justify-between'>
         <div class='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
-          <RouterLink class='flex flex-shrink-0 items-center mr-4' to='/'>
+          <RouterLink class='flex flex-shrink-0 items-center mr-4 btn-hover' to='/'>
             <img class='h-10 w-auto' :src='logo' alt='Jobs 4 Coders' />
             <span class='hidden md:block text-light text-3xl ml-2 logo'>
               Knight Coders
@@ -32,7 +32,8 @@ const isActiveLink = (routePath) => {
                   'uppercase',
                   'px-3',
                   'py-2',
-                  'rounded-sm',            
+                  'rounded-sm',
+                  'btn-hover'            
                 ]" 
               >
                 Home
@@ -49,6 +50,7 @@ const isActiveLink = (routePath) => {
                   'px-3',
                   'py-2',
                   'rounded-sm',
+                  'btn-hover'
                 ]" 
               >
                 Jobs
@@ -65,6 +67,7 @@ const isActiveLink = (routePath) => {
                   'px-3',
                   'py-2',
                   'rounded-sm',
+                  'btn-hover'
                 ]" 
               >
                 Add Job

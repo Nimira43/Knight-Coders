@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
     <p class='text-main text-xl mb-5 uppercase'>Page Not Found</p>
     <RouterLink
       to='/'
-      class='text-light bg-dark hover:bg-grey-dark rounded-md px-3 py-2 mt-4 uppercase'
+      class='text-light bg-dark hover:bg-grey-dark rounded-md px-3 py-2 mt-4 uppercase btn-hover'
     >
       Go Back
     </RouterLink>
