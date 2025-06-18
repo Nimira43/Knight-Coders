@@ -25,7 +25,10 @@
 </script>
 
 <template>
-  <section class='bg-light'>
+  <section 
+    v-if='!state.isLoading'  
+    class='bg-light'
+  >
     <div class='container m-auto py-10 px-6'>
       <div class='grid grid-cols-1 md:grid-cols-70/30 w-full gap-6'>
         <main>
@@ -97,4 +100,7 @@
       </div>
     </div>
   </section>
+  <div v-else class="text-center text-main py-6">
+    <PulseLoader />
+  </div>
 </template>
