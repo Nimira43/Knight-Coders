@@ -62,22 +62,22 @@
 
         <aside>
           <div class='bg-grey-light p-6 rounded-lg shadow-md'>
-            <h3 class='text-xl text-main font-semibold mb-6 uppercase'>Company Info</h3>
-            <h2 class='text-2xl font-medium uppercase'>{{ state.job.company.name }}</h2>
+            <h3 class='text-2xl text-main font-semibold mb-6 uppercase'>Company Details</h3>
+            <h2 class='text-2xl font-medium'>{{ state.job.company.name }}</h2>
             <p class='my-2 '>
               {{ state.job.company.description }}
             </p>
             <hr class='my-4' />
-            <h3 class='text-xl'>Contact Email:</h3>
+            <h3 class='text-xl uppercase font-medium text-main'>Contact Email:</h3>
             <p class='my-2 bg-light p-2 font-semibold'>
               {{ state.job.company.contactEmail }}
             </p>
-            <h3 class='text-xl'>Contact Phone:</h3>
+            <h3 class='text-xl uppercase font-medium text-main'>Contact Phone:</h3>
             <p class='my-2 bg-light p-2 font-semibold'>{{ state.job.company.contactPhone }}</p>
           </div>
 
           <div class='bg-light p-6 rounded-lg shadow-md mt-6'>
-            <h3 class='text-xl text-center font-semibold mb-6 uppercase '>Manage Job</h3>
+            <h3 class='text-xl text-center font-semibold mb-6 uppercase'>Manage Job</h3>
             <RouterLink
               :to="`/jobs/edit/${state.job.id}`"
               class='bg-dark hover:bg-grey-dark text-light text-center uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'

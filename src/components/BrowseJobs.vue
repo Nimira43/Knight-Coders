@@ -33,7 +33,7 @@ onMounted(async () => {
 <template>
   <section class='bg-light px-4 py-10'>
     <div class='container-xl lg:container m-auto'>
-      <h2 class='text-3xl font-semibold text-main mb-6 text-center'>
+      <h2 class='text-3xl font-semibold uppercase text-main mb-6 text-center'>
         Browse Jobs
       </h2>
       <div v-if='state.isLoading' class='text-center text-main py-6'>
@@ -51,7 +51,7 @@ onMounted(async () => {
   <section v-if='showButton' className='m-auto max-w-lg my-10 px-6'>
     <RouterLink
       to='/jobs'
-      className='block bg-dark text-light text-center py-4 px-6 rounded-xl hover:bg-main uppercase'
+      className='block bg-dark text-light text-center py-4 px-6 rounded-md hover:bg-grey-dark uppercase font-medium'
     >
       View All Jobs
     </RouterLink>

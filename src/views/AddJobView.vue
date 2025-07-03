@@ -3,7 +3,7 @@
     <div class="container m-auto max-w-2xl py-24">
       <div class="bg-grey-light px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
         <form>
-          <h2 class="text-3xl text-center font-medium mb-6 text-main">Add Job</h2>
+          <h2 class="text-3xl text-center font-semibold mb-6 text-dark uppercase">Add Job</h2>
           <div class="mb-4">
             <label 
               for="type" 
@@ -97,7 +97,7 @@
               required
             >
           </div>
-          <h3 class="text-2xl mb-5">Company Details</h3>
+          <h3 class="text-2xl mb-5 font-medium uppercase">Company Info</h3>
           <div class="mb-4">
             <label 
               for="company"
@@ -155,6 +155,13 @@
               class="border rounded w-full py-2 px-3 mb-2"
               required
             >
+          </div>
+          <div>
+            <button
+              class='bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'
+            >
+              Add Job
+            </button>
           </div>
         </form>
       </div>
