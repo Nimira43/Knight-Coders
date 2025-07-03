@@ -3,11 +3,11 @@
     <div class="container m-auto max-w-2xl py-24">
       <div class="bg-grey-light px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
         <form>
-          <h2 class="text-3xl text-center font-medium mb-6">Add Job</h2>
+          <h2 class="text-3xl text-center font-medium mb-6 text-main">Add Job</h2>
           <div class="mb-4">
             <label 
               for="type" 
-              class="block text-grey-dark font-medium mb-2 uppercase"
+              class="block text-main font-medium mb-2 uppercase"
             >
               Job Type
             </label>
@@ -27,7 +27,7 @@
 
           <div class="mb-4">
             <label 
-              class="block text-grey-dark font-medium mb-2 uppercase"
+              class="block text-main font-medium mb-2 uppercase"
             >
               Job Title
             </label>
@@ -42,7 +42,7 @@
           <div class="mb-4">
             <label 
               for="description"
-              class="block text-grey-dark font-medium mb-2 uppercase"
+              class="block text-main font-medium mb-2 uppercase"
             >
               Job Description
             </label>
@@ -54,6 +54,36 @@
               rows="4"
               required
             ></textarea>
+          </div>
+          <div class="mb-4">
+            <label 
+              for="salary" 
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Salary
+            </label>
+            <select 
+              name="salary" 
+              id="salary" 
+              class="border rounded-md w-full py-2 px-3"
+              required
+            >
+              <option value="Under £25,000">Under £25,000</option>
+              <option value="£25,000 - £30,000">£25,000 - £30,000</option>
+              <option value="£30,000 - £40,000">£30,000 - £40,000</option>
+              <option value="£40,000 - £50,000">£40,000 - £50,000</option>
+              <option value="£50,000 - £60,000">£50,000 - £60,000</option>
+              <option value="£60,000 - £70,000">£60,000 - £70,000</option>
+              <option value="£70,000 - £80,000">£70,000 - £80,000</option>
+              <option value="£80,000 - £90,000">£80,000 - £90,000</option>
+              <option value="£90,000 - £100,000">£90,000 - £100,000</option>
+              <option value="£100,000 - £125,000">100,000 - £125,000</option>
+              <option value="£125,000 - £150,000">125,000 - £150,000</option>
+              <option value="£150,000 - £175,000">£150,000 - £175,000</option>
+              <option value="£175,000 - £200,000">£175,000 - £200,000</option>
+              <option value="Over £200,000">Over £200,000</option>
+              
+            </select>
           </div>
         </form>
       </div>
