@@ -47,7 +47,6 @@
               Job Description
             </label>
             <textarea 
-              type="text" 
               id="description"
               name="description" 
               class="border rounded w-full py-2 px-3"
@@ -57,7 +56,7 @@
           </div>
           <div class="mb-4">
             <label 
-              for="salary" 
+              for="type" 
               class="block text-main font-medium mb-2 uppercase"
             >
               Salary
@@ -94,6 +93,50 @@
               type="text" 
               id="location"
               name="loction" 
+              class="border rounded w-full py-2 px-3 mb-2"
+              required
+            >
+          </div>
+          <h3 class="text-2xl mb-5">Company Details</h3>
+          <div class="mb-4">
+            <label 
+              for="company"
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Company Name
+            </label>
+            <input 
+              type="text" 
+              id="company"
+              name="company" 
+              class="border rounded w-full py-2 px-3 mb-2"
+            >
+          </div>
+          <div class="mb-4">
+            <label 
+              for="company_description"
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Company Description
+            </label>
+            <textarea 
+              id="company_description"
+              name="company_description" 
+              class="border rounded w-full py-2 px-3"
+              rows="4"
+            ></textarea>
+          </div>
+          <div class="mb-4">
+            <label 
+              for="company_email"
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Company Name
+            </label>
+            <input 
+              type="email" 
+              id="company_email"
+              name="company_email" 
               class="border rounded w-full py-2 px-3 mb-2"
               required
             >
