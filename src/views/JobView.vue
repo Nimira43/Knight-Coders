@@ -22,7 +22,6 @@
     state.isLoading = false
   }
 })
-
 </script>
 
 <template>
