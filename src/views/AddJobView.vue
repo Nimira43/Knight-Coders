@@ -81,9 +81,22 @@
               <option value="£125,000 - £150,000">125,000 - £150,000</option>
               <option value="£150,000 - £175,000">£150,000 - £175,000</option>
               <option value="£175,000 - £200,000">£175,000 - £200,000</option>
-              <option value="Over £200,000">Over £200,000</option>
-              
+              <option value="Over £200,000">Over £200,000</option> 
             </select>
+          </div>
+          <div class="mb-4">
+            <label 
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Location
+            </label>
+            <input 
+              type="text" 
+              id="location"
+              name="loction" 
+              class="border rounded w-full py-2 px-3 mb-2"
+              required
+            >
           </div>
         </form>
       </div>
