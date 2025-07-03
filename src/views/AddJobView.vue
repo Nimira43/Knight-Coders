@@ -19,6 +19,17 @@
             <option value="Temporary">Temporary</option>
             </select>
           </div>
+
+          <div class="mb-4">
+            <label class="block text-grey-dark font-medium mb-2">Job Listing Name</label>
+            <input 
+              required
+              type="text" 
+              id="name"
+              name="name" 
+              class="border rounded w-full py-2 px-3 mb-2"
+            >
+          </div>
         </form>
       </div>
     </div>
