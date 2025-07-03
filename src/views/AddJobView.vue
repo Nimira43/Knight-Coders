@@ -141,6 +141,21 @@
               required
             >
           </div>
+          <div class="mb-4">
+            <label 
+              for="contact_phone"
+              class="block text-main font-medium mb-2 uppercase"
+            >
+              Company Phone Number
+            </label>
+            <input 
+              type="tel" 
+              id="contact_phone"
+              name="contact_phone" 
+              class="border rounded w-full py-2 px-3 mb-2"
+              required
+            >
+          </div>
         </form>
       </div>
     </div>
