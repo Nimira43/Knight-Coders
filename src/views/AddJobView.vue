@@ -5,30 +5,55 @@
         <form>
           <h2 class="text-3xl text-center font-medium mb-6">Add Job</h2>
           <div class="mb-4">
-            <label for="type" class="block text-grey-dark font-medium mb-2 uppercase">Job Type</label>
+            <label 
+              for="type" 
+              class="block text-grey-dark font-medium mb-2 uppercase"
+            >
+              Job Type
+            </label>
             <select 
-              required
               name="type" 
               id="type" 
               class="border rounded-md w-full py-2 px-3"
+              required
             >
-            <option value="Full-Time">Full Time</option>
-            <option value="Part-Time">Part Time</option>
-            <option value="Remote">Remote</option>
-            <option value="Placement">Placement</option>
-            <option value="Temporary">Temporary</option>
+              <option value="Full-Time">Full Time</option>
+              <option value="Part-Time">Part Time</option>
+              <option value="Remote">Remote</option>
+              <option value="Placement">Placement</option>
+              <option value="Temporary">Temporary</option>
             </select>
           </div>
 
           <div class="mb-4">
-            <label class="block text-grey-dark font-medium mb-2 uppercase">Job Listing Name</label>
+            <label 
+              class="block text-grey-dark font-medium mb-2 uppercase"
+            >
+              Job Title
+            </label>
             <input 
-              required
               type="text" 
               id="name"
               name="name" 
               class="border rounded w-full py-2 px-3 mb-2"
+              required
             >
+          </div>
+          <div class="mb-4">
+            <label 
+              for="description"
+              class="block text-grey-dark font-medium mb-2 uppercase"
+            >
+              Job Description
+            </label>
+            <textarea 
+              type="text" 
+              id="description"
+              name="description" 
+              class="border rounded w-full py-2 px-3"
+              rows="4"
+              required
+            ></textarea>
           </div>
         </form>
       </div>
