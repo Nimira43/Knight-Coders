@@ -22,3 +22,14 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #111;
 }
+
+select {
+  appearance: none;       
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

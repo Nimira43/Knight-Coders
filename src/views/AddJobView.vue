@@ -5,7 +5,7 @@
         <form>
           <h2 class="text-3xl text-center font-medium mb-6">Add Job</h2>
           <div class="mb-4">
-            <label for="type" class="block text-grey-dark font-medium mb-2">Job Type</label>
+            <label for="type" class="block text-grey-dark font-medium mb-2 uppercase">Job Type</label>
             <select 
               required
               name="type" 
@@ -21,7 +21,7 @@
           </div>
 
           <div class="mb-4">
-            <label class="block text-grey-dark font-medium mb-2">Job Listing Name</label>
+            <label class="block text-grey-dark font-medium mb-2 uppercase">Job Listing Name</label>
             <input 
               required
               type="text" 
