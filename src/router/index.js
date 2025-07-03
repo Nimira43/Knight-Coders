@@ -24,7 +24,7 @@ const router = createRouter({
       component: JobView
     },
     {
-      path: 'jobs/add',
+      path: '/jobs/add',
       name: 'add-job',
       component: AddJobView
     },
