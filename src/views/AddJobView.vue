@@ -160,6 +160,7 @@ const form = reactive({
             </label>
             <input 
               type='email' 
+              v-model='form.company.email'
               id='company_email'
               name='company_email' 
               class='border rounded w-full py-2 px-3 mb-2'
