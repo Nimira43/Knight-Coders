@@ -1,3 +1,8 @@
+<script setup>
+import { reactive } from 'vue'
+
+</script>
+
 <template>
   <section class='bg-light'>
     <div class='container m-auto max-w-2xl py-24'>
