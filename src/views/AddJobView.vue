@@ -83,8 +83,9 @@ const form = reactive({
               Salary
             </label>
             <select 
+              id='salary'   
+              v-model='form.salary'
               name='salary' 
-              id='salary' 
               class='border rounded-md w-full py-2 px-3'
               required
             >
@@ -112,6 +113,7 @@ const form = reactive({
             </label>
             <input 
               type='text' 
+              v-model='form.location'
               id='location'
               name='loction' 
               class='border rounded w-full py-2 px-3 mb-2'
