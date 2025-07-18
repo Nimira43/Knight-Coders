@@ -1,6 +1,12 @@
 <script setup>
 import { reactive } from 'vue'
 
+const form = reactive({
+  type: 'full-time',
+  title: '',
+  
+})
+
 </script>
 
 <template>
