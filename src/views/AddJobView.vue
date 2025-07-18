@@ -98,8 +98,8 @@ const form = reactive({
               <option value='£70,000 - £80,000'>£70,000 - £80,000</option>
               <option value='£80,000 - £90,000'>£80,000 - £90,000</option>
               <option value='£90,000 - £100,000'>£90,000 - £100,000</option>
-              <option value='£100,000 - £125,000'>100,000 - £125,000</option>
-              <option value='£125,000 - £150,000'>125,000 - £150,000</option>
+              <option value='£100,000 - £125,000'>£100,000 - £125,000</option>
+              <option value='£125,000 - £150,000'>£125,000 - £150,000</option>
               <option value='£150,000 - £175,000'>£150,000 - £175,000</option>
               <option value='£175,000 - £200,000'>£175,000 - £200,000</option>
               <option value='Over £200,000'>Over £200,000</option> 
@@ -130,6 +130,7 @@ const form = reactive({
             </label>
             <input 
               type='text' 
+              v-model='form.company.name'
               id='company'
               name='company' 
               class='border rounded w-full py-2 px-3 mb-2'
