@@ -14,7 +14,6 @@ const form = reactive({
     contactPhone: ''
   }
 })
-
 </script>
 
 <template>
@@ -30,7 +29,8 @@ const form = reactive({
             >
               Job Type
             </label>
-            <select 
+            <select
+              v-model='form.type' 
               name='type' 
               id='type' 
               class='border rounded-md w-full py-2 px-3'
@@ -51,6 +51,7 @@ const form = reactive({
               Job Title
             </label>
             <input 
+              v-model='form.name'
               type='text' 
               id='name'
               name='name' 
