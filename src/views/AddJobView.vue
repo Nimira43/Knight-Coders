@@ -4,7 +4,15 @@ import { reactive } from 'vue'
 const form = reactive({
   type: 'full-time',
   title: '',
-  
+  decription: '',
+  salary: '',
+  location: '',
+  company: {
+    name: '',
+    description: '',
+    contactEmail: '',
+    contactPhone: ''
+  }
 })
 
 </script>
