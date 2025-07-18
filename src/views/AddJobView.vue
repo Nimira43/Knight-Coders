@@ -4,7 +4,7 @@ import { reactive } from 'vue'
 const form = reactive({
   type: 'full-time',
   title: '',
-  decription: '',
+  description: '',
   salary: '',
   location: '',
   company: {
@@ -68,6 +68,7 @@ const form = reactive({
             </label>
             <textarea 
               id='description'
+              v-model='form.description'
               name='description' 
               class='border rounded w-full py-2 px-3'
               rows='4'
