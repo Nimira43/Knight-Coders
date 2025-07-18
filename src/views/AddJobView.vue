@@ -175,7 +175,8 @@ const form = reactive({
               Company Phone Number
             </label>
             <input 
-              type='tel' 
+              type='tel'
+              v-model='form.company.contactPhone' 
               id='contact_phone'
               name='contact_phone' 
               class='border rounded w-full py-2 px-3 mb-2'
