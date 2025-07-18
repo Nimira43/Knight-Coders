@@ -51,7 +51,7 @@ const form = reactive({
               Job Title
             </label>
             <input 
-              v-model='form.name'
+              v-model='form.title'
               type='text' 
               id='name'
               name='name' 
@@ -160,7 +160,7 @@ const form = reactive({
             </label>
             <input 
               type='email' 
-              v-model='form.company.email'
+              v-model='form.company.contactEmail'
               id='company_email'
               name='company_email' 
               class='border rounded w-full py-2 px-3 mb-2'
