@@ -145,6 +145,7 @@ const form = reactive({
             </label>
             <textarea 
               id='company_description'
+              v-model='form.company.description'
               name='company_description' 
               class='border rounded w-full py-2 px-3'
               rows='4'
