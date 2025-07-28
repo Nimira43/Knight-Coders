@@ -29,6 +29,7 @@ const handleSubmit = async () => {
       contactPhone: form.company.contactPhone
     }
   }
+  console.log(newJob)
 }
 
 </script>
