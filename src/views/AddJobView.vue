@@ -14,6 +14,11 @@ const form = reactive({
     contactPhone: ''
   }
 })
+
+const handleSubmit = async () => {
+  console.log(form.title)
+}
+
 </script>
 
 <template>
@@ -156,7 +161,7 @@ const form = reactive({
               for='company_email'
               class='block text-main font-medium mb-2 uppercase'
             >
-              Company Name
+              Company Email
             </label>
             <input 
               type='email' 
