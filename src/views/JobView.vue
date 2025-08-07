@@ -13,15 +13,16 @@
   })
 
   onMounted(async () => {
-  try {
-    const response = await axios.get(`/api/jobs/${jobId}`)
-    state.job = response.data
-  } catch (error) {
-    console.error('Error fetching job data.', error)
-  } finally {
-    state.isLoading = false
+    try {
+      const response = await axios.get(`/api/jobs/${jobId}`)
+      state.job = response.data
+    } catch (error) {
+      console.error('Error fetching job data.', error)
+    } finally {
+      state.isLoading = false
+    }
   }
-})
+)
 </script>
 
 <template>

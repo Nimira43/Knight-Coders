@@ -1,5 +1,7 @@
 <script setup>
 import { reactive } from 'vue'
+import axios from 'axios'
+import router from '@/router'
 
 const form = reactive({
   type: 'full-time',
@@ -29,9 +31,13 @@ const handleSubmit = async () => {
       contactPhone: form.company.contactPhone
     }
   }
-  console.log(newJob)
+  try {
+    const response = await axios.post('/api/jobs/', newJob)
+    router.push(`/jobs/${response.data.id}`)  
+  } catch (error) {
+    console.error('Error fetching job data.', error)
+  }
 }
-
 </script>
 
 <template>
