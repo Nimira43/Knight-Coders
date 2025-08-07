@@ -97,6 +97,20 @@
         "contactEmail": "jobs@acme.com",
         "contactPhone": "0161 234 5678"
       }
+    },
+    {
+      "id": "6ad0",
+      "title": "React Programmer",
+      "type": "Full-Time",
+      "location": "Manchester",
+      "description": "React programmer",
+      "salary": "£30,000 - £40,000",
+      "company": {
+        "name": "Acme",
+        "description": "React programmer\n",
+        "contactEmail": "jobs@acme.com",
+        "contactPhone": "0161 234 5678"
+      }
     }
   ]
 }
