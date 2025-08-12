@@ -10,10 +10,19 @@
   const router = useRouter()
   const toast = useToast()
   const jobId = route.params.id
+  
   const state = reactive({
     job: {},
     isLoading: true
   })
+
+  const deleteJob = async () => {
+    try {
+      
+    } catch (error) {
+      
+    }
+  }
 
   onMounted(async () => {
     try {
