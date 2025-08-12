@@ -125,6 +125,20 @@
         "contactEmail": "enquires@vk.com",
         "contactPhone": "01284 477 483"
       }
+    },
+    {
+      "id": "6b6d",
+      "title": "React Frontend Developer",
+      "type": "Full-Time",
+      "location": "Swindon",
+      "description": "Designing and creating frontend applications.",
+      "salary": "£30,000 - £40,000",
+      "company": {
+        "name": "Finlay & Webster",
+        "description": "A family run clothes ecommerce company.",
+        "contactEmail": "jpbs@fin-web.com",
+        "contactPhone": "01553 587 549"
+      }
     }
   ]
 }
