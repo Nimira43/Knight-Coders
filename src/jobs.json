@@ -111,6 +111,20 @@
         "contactEmail": "jobs@acme.com",
         "contactPhone": "0161 234 5678"
       }
+    },
+    {
+      "id": "ff67",
+      "title": "Nest JS Developer",
+      "type": "Full-Time",
+      "location": "Hereford",
+      "description": "Developing Nest API's",
+      "salary": "£40,000 - £50,000",
+      "company": {
+        "name": "VK Solutions",
+        "description": "VK Solutions provide powerful cloud services",
+        "contactEmail": "enquires@vk.com",
+        "contactPhone": "01284 477 483"
+      }
     }
   ]
 }
