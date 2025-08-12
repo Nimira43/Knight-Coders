@@ -7,6 +7,8 @@
   import { useToast } from 'vue-toastification'
 
   const route = useRoute()
+  const router = useRouter()
+  const toast = useToast()
   const jobId = route.params.id
   const state = reactive({
     job: {},
