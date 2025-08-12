@@ -50,7 +50,7 @@ const handleSubmit = async () => {
     <div class='container m-auto max-w-2xl py-24'>
       <div class='bg-grey-light px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0'>
         <form @submit.prevent='handleSubmit'>
-          <h2 class='text-3xl text-center font-semibold mb-6 text-dark uppercase'>Add Job</h2>
+          <h2 class='text-3xl text-center font-semibold mb-6 text-dark uppercase'>Edit Job</h2>
           <div class='mb-4'>
             <label 
               for='type' 
@@ -216,7 +216,7 @@ const handleSubmit = async () => {
             <button
               class='bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'
             >
-              Add Job
+              Update Job
             </button>
           </div>
         </form>
