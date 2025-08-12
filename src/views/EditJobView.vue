@@ -53,6 +53,11 @@ const handleSubmit = async () => {
     toast.error('Failed. Job was not added.')
   }
 }
+
+onMounted(async () => {
+  
+})
+
 </script>
 
 <template>
