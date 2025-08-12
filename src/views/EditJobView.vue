@@ -5,6 +5,8 @@ import router from '@/router'
 import { useRoute, useRouter } from 'vue-router'
 import { useToast } from 'vue-toastification'
 
+const route = useRoute()
+const router = useRouter()
 
 const form = reactive({
   type: 'full-time',
