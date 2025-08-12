@@ -1,5 +1,5 @@
 <script setup>
-import { reactive } from 'vue'
+import { reactive, onMounted } from 'vue'
 import axios from 'axios'
 import router from '@/router'
 import { useRoute, useRouter } from 'vue-router'
