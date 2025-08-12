@@ -18,7 +18,7 @@
 
   const deleteJob = async () => {
     try {
-      
+      await axios.delete(`/api/jobs/${jobId}`)
     } catch (error) {
       
     }
