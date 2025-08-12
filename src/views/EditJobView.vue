@@ -23,6 +23,11 @@ const form = reactive({
   }
 })
 
+const state = reactive({
+  job: {},
+  isLoading: true
+})
+
 const toast = useToast()
 
 const handleSubmit = async () => {
