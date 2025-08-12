@@ -20,8 +20,9 @@
     try {
       await axios.delete(`/api/jobs/${jobId}`)
       toast.success('Job deleted successfully.')
+      router.push('/jobs')
     } catch (error) {
-      
+      console.error('Error deleting job', error)      
     }
   }
 
