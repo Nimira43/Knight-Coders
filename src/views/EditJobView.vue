@@ -30,7 +30,7 @@ const state = reactive({
 const toast = useToast()
 
 const handleSubmit = async () => {
-  const newJob = {
+  const updatedJob = {
     title: form.title,
     type: form.type,
     location: form.location,
