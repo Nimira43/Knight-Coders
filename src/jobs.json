@@ -85,18 +85,18 @@
       }
     },
     {
-      "id": "ff67",
       "title": "Nest JS Developer",
       "type": "Full-Time",
       "location": "Hereford",
-      "description": "Developing Nest API's",
+      "description": "Developing Nest API's and documenting with Swagger.",
       "salary": "£40,000 - £50,000",
       "company": {
         "name": "VK Solutions",
         "description": "VK Solutions provide powerful cloud services",
         "contactEmail": "enquires@vk.com",
         "contactPhone": "01284 477 483"
-      }
+      },
+      "id": "ff67"
     },
     {
       "title": "React Frontend Developer",
