@@ -19,6 +19,7 @@
   const deleteJob = async () => {
     try {
       await axios.delete(`/api/jobs/${jobId}`)
+      toast.success('Job deleted successfully.')
     } catch (error) {
       
     }
