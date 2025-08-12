@@ -57,6 +57,11 @@ const handleSubmit = async () => {
 onMounted(async () => {
   try {
     const response = await axios.get(`/api/jobs/${jobId}`)
+    state.job = response.data
+    
+    form.type = state.job.type
+    form.title = state.job.title
+    form.description = state.job.description
   } catch (error) {
     
   }
