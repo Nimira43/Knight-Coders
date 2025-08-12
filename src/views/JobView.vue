@@ -86,6 +86,7 @@
               Edit Job
             </RouterLink>
             <button
+              @click='deleteJob'
               class='bg-dark hover:bg-grey-dark text-light uppercase font-semibold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block btn-hover'
             >
               Delete Job
