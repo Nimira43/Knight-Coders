@@ -7,6 +7,7 @@ import { useToast } from 'vue-toastification'
 
 const route = useRoute()
 const router = useRouter()
+const jobId = route.params.id
 
 const form = reactive({
   type: 'full-time',
