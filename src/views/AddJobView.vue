@@ -2,6 +2,7 @@
 import { reactive } from 'vue'
 import axios from 'axios'
 import router from '@/router'
+import { useToast } from 'vue-toastification'
 
 const form = reactive({
   type: 'full-time',
