@@ -69,7 +69,9 @@ onMounted(async () => {
     form.company.contactEmail = state.job.company.contactEmail
     form.company.contactPhone = state.job.company.contactPhone
   } catch (error) {
-    
+    console.error('Error fetching job', error)
+  } finally {
+    state.isLoading = false
   }
 })
 
